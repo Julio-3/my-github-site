@@ -12,12 +12,13 @@
         margin: 40px auto; 
         padding: 0 20px; 
         background-color: #f0f4f8; 
-        color: #333333;
+        color: #0000FF; /* Changed base text color to Blue */
+        font-size: 25px; /* Changed base font size to 25px */
       }
 
       /* Clean Content Card Layout */
       .container {
-        background: #ffffff;
+        background: #FF0000; /* Changed card background from White to Red */
         padding: 40px;
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -25,37 +26,37 @@
 
       /* Typography & Headers */
       h1 { 
-        color: #1F4E79; 
+        color: #0000FF; /* Changed to Blue */
         margin-top: 0;
         font-size: 2.2rem;
-        border-bottom: 3px solid #1F4E79;
+        border-bottom: 3px solid #0000FF; /* Changed border to Blue */
         padding-bottom: 10px;
       }
       
       h2 { 
-        color: #2E75B6; 
+        color: #0000FF; /* Changed to Blue */
         font-size: 1.4rem;
         margin-top: 30px;
-        border-bottom: 2px solid #2E75B6;
+        border-bottom: 2px solid #0000FF; /* Changed border to Blue */
         padding-bottom: 4px;
       }
       
       p { 
         line-height: 1.7; 
-        font-size: 1.05rem;
-        color: #4a5568;
+        font-size: 25px; /* Changed to 25px */
+        color: #0000FF; /* Changed from grey to Blue */
       }
 
       /* Hyperlink Styling */
       a {
-        color: #2E75B6;
+        color: #FFFF00; /* Changed links to Yellow so they stand out clearly against the Red background */
         text-decoration: none;
         font-weight: 600;
         transition: color 0.2s ease;
       }
 
       a:hover {
-        color: #1F4E79;
+        color: #0000FF; /* Hover changes link to Blue */
         text-decoration: underline;
       }
 
@@ -67,8 +68,17 @@
       li { 
         line-height: 1.8; 
         margin-bottom: 10px; 
-        font-size: 1.05rem;
-        color: #4a5568;
+        font-size: 25px; /* Changed to 25px */
+        color: #0000FF; /* Changed to Blue */
+      }
+
+      /* Highlights Deployment Section */
+      .deployment-box {
+        background-color: #d11a1a; /* Adjusted to a darker red for text contrast */
+        border-left: 4px solid #0000FF; /* Changed border line to Blue */
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 0 8px 8px 0;
       }
     </style>
   </head>
@@ -83,7 +93,7 @@
       <p>I am a 9th grader taking AP Computer Science at Energy Tech, where I am learning how coding works and how to make programs work. I am also learning how to properly fix coding issues—like mistypes or overused brackets—and how to break complex logic down into clean, organized lists.</p>
    
       <h2>My Interests</h2>
-      <p>I like talking to friends, reading in my free time, and actively learning how to code slowly by myself using <a href="https://studio.code.org/projects/applab/80e07545-6210-44a4-9a73-2058299464a6" target="_blank">code.org</a>.</p>
+      <p>I like talking to friends, reading in my free time, and actively learning how to code slowly by myself using <a href="https://code.org" target="_blank">code.org</a>.</p>
    
       <h2>My Goals for This Course</h2>
       <p>I want to build a functional website or program that can work smoothly and be used in everyday life from time to time.</p>
@@ -91,13 +101,23 @@
       <h2>My Projects & Links</h2>
       <p>Check out my work across different platforms:</p>
       <ul>
-        <li><a href="https://github.com/Julio-3" target="_blank">My Main GitHub Profile</a></li>
-        <li><a href="https://studio.code.org/projects/applab/80e07545-6210-44a4-9a73-2058299464a6" target="_blank">Code.org Interactive App</a></li>
-        <li><a href="https://cad.onshape.com/documents/31db91610bf5f0384738ad25/w/3b764063b149f5b5a5864675/e/4e3f106c43bbb91f11fbdd82?renderMode=0&uiState=6a2c23372466b95806afebba" target="_blank">OnShape 3D CAD Project</a></li>
+        <li><a href="https://code.org" target="_blank">Code.org Interactive App</a></li>
+        <li><a href="https://onshape.com" target="_blank">OnShape 3D CAD Project</a></li>
       </ul>
+
+      <!-- Deployment and Repository Structure -->
+      <h2>Deployment & Source Code</h2>
+      <p>This website is completely open-source and hosted online:</p>
+      <div class="deployment-box">
+        <p><strong>Repository Source Code:</strong> 
+          <a href="https://github.com" target="_blank">View GitHub Repository</a>
+        </p>
+        <p><strong>Live Web Deployment:</strong> 
+          <a href="https://github.io" target="_blank">Launch Live Site via GitHub Pages</a>
+        </p>
+      </div>
 
     </div>
 
   </body>
 </html>
-
