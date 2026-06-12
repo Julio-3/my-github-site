@@ -5,28 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julio Chuya's Website</title>
     <style>
-      body { font-family: Arial, sans-serif; max-width: 800px;
-             margin: 0 auto; padding: 20px; background: #f5f5f5; }
-      h1   { color: #1F4E79; }
-      h2   { color: #2E75B6; border-bottom: 2px solid #2E75B6; }
-      p    { line-height: 1.6; }
+      /* Base Page Settings */
+      body { 
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        max-width: 800px;
+        margin: 40px auto; 
+        padding: 0 20px; 
+        background-color: #f0f4f8; 
+        color: #333333;
+      }
+
+      /* Clean Content Card Layout */
+      .container {
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      /* Typography & Headers */
+      h1 { 
+        color: #1F4E79; 
+        margin-top: 0;
+        font-size: 2.2rem;
+        border-bottom: 3px solid #1F4E79;
+        padding-bottom: 10px;
+      }
+      
+      h2 { 
+        color: #2E75B6; 
+        font-size: 1.4rem;
+        margin-top: 30px;
+        border-bottom: 2px solid #2E75B6;
+        padding-bottom: 4px;
+      }
+      
+      p { 
+        line-height: 1.7; 
+        font-size: 1.05rem;
+        color: #4a5568;
+      }
+
+      /* Hyperlink Styling */
+      a {
+        color: #2E75B6;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.2s ease;
+      }
+
+      a:hover {
+        color: #1F4E79;
+        text-decoration: underline;
+      }
+
+      /* Unordered List Items */
+      ul {
+        padding-left: 20px;
+      }
+
+      li { 
+        line-height: 1.8; 
+        margin-bottom: 10px; 
+        font-size: 1.05rem;
+        color: #4a5568;
+      }
     </style>
   </head>
   <body>
-    <h1>Hi, I'm Julio Chuya!</h1>
- 
-    <h2>About Me</h2>
-    <p> I am a 9th grader taking ap computer science and i am in energy tech learning how coding and how to make programs work. I am also learning how to properly fix coding issues like mistypes or overused brackets and breaking it down into lists.</p>
- 
-    <h2>My Interests</h2>
-    <p>I like talking to friends and actively learning how to code slowly by myself by using <a href="https://studio.code.org/projects/applab/80e07545-6210-44a4-9a73-2058299464a6" target="_blank">code.org</a> and also reading in my free time.</p>
- 
-    <h2>My Goals for This Course</h2>
-    <p>I want to build a functional website or program that can work and be used in everyday life from time to time.</p>
- 
-    <h2>My GitHub</h2>
-    <p>Check out my projects: 
-      <a href="https://github.com/Julio-3" target="_blank">Julio-3</a>
-    </p>
+
+    <!-- Cohesive Card Wrapper -->
+    <div class="container">
+      
+      <h1>Hi, I'm Julio Chuya!</h1>
+   
+      <h2>About Me</h2>
+      <p>I am a 9th grader taking AP Computer Science at Energy Tech, where I am learning how coding works and how to make programs work. I am also learning how to properly fix coding issues—like mistypes or overused brackets—and how to break complex logic down into clean, organized lists.</p>
+   
+      <h2>My Interests</h2>
+      <p>I like talking to friends, reading in my free time, and actively learning how to code slowly by myself using <a href="https://studio.code.org/projects/applab/80e07545-6210-44a4-9a73-2058299464a6" target="_blank">code.org</a>.</p>
+   
+      <h2>My Goals for This Course</h2>
+      <p>I want to build a functional website or program that can work smoothly and be used in everyday life from time to time.</p>
+   
+      <h2>My Projects & Links</h2>
+      <p>Check out my work across different platforms:</p>
+      <ul>
+        <li><a href="https://github.com/Julio-3" target="_blank">My Main GitHub Profile</a></li>
+        <li><a href="https://studio.code.org/projects/applab/80e07545-6210-44a4-9a73-2058299464a6" target="_blank">Code.org Interactive App</a></li>
+        <li><a href="https://cad.onshape.com/documents/31db91610bf5f0384738ad25/w/3b764063b149f5b5a5864675/e/4e3f106c43bbb91f11fbdd82?renderMode=0&uiState=6a2c23372466b95806afebba" target="_blank">OnShape 3D CAD Project</a></li>
+      </ul>
+
+    </div>
+
   </body>
 </html>
+
